@@ -1,7 +1,3 @@
-Certainly! Here's the complete **`README.md`** content in clean, GitHub-ready markdown format — structured, copy-paste ready, and without any code blocks or emojis:
-
----
-
 # Banking Loan Default Prediction
 
 ## Problem Statement
