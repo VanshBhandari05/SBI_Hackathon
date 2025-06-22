@@ -76,6 +76,16 @@ Unnecessary high-cardinality columns (e.g., SDR, MTD, OUTSTANGBAL series) were d
 * Confusion Matrix
 * Precision-Recall AUC and threshold tuning
 
+## Prototype Interface
+
+To demonstrate the practical application of our solution, we developed a **prototype user interface**. The interface was built to simulate how bank employees can use the model in a real-world scenario. Features of the prototype include:
+
+* Easy input of customer financial and behavioral attributes
+* Instant prediction of defaulter or non-defaulter status
+* Support for credit officers to quickly evaluate loan eligibility
+* Helpful summary of key risk indicators contributing to the prediction
+* Designed to make the ML model accessible and interpretable for non-technical users
+
 ## Tools and Libraries
 
 * Python (Pandas, NumPy)
@@ -84,4 +94,4 @@ Unnecessary high-cardinality columns (e.g., SDR, MTD, OUTSTANGBAL series) were d
 * LightGBM
 * SHAP (model explainability)
 * imbalanced-learn (for SMOTE-Tomek resampling)
-
+* Streamlit (for building the prototype interface)
